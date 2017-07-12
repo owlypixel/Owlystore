@@ -1,0 +1,7 @@
+- Install Node 
+- Install MongoDB, Compass
+	- create \data\db directory
+- Install Chrome plugin Json formatter
+- In Compass create database owlystore
+- Fill in connection string in variables.env (DATABASE=mongodb://@localhost:27017/owlystore)
+- 
