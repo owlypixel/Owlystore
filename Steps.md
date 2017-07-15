@@ -4,4 +4,7 @@
 - Install Chrome plugin Json formatter
 - In Compass create database owlystore
 - Fill in connection string in variables.env (DATABASE=mongodb://@localhost:27017/owlystore)
-- 
+- Form the main layout of the application
+- Put info that need to be available for every request in helpers.js (like site name...)
+- create a controller for each route
+- there are global and route-specific middlewares.
