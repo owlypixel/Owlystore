@@ -19,7 +19,7 @@ exports.createStore = async (req, res) => {
 
 exports.getStores = async (req, res) => {
 	const stores = await Store.find();
-	res.render('stores', { title: 'stores', stores: stores});
+	res.render('stores', { title: 'stores', stores});
 }
 
 exports.editStore = async (req, res) => {
